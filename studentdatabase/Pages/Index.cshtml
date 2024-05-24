@@ -1,0 +1,48 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<html>
+<head runat="server">
+    <title>Home Page</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <h1>Welcome to Student Management System</h1>
+           
+        </div>
+    </form>
+    <sectionclass ="container">
+       <div class="row">
+        <!--Students-->
+  <div class="card" style="width: 18rem;">
+  
+  <div class="card-body">
+    <h5 class="card-title">Add Students</h5>
+                    <p class="card-text">Welcome to the student database get instant access to records and real-time updates effortlessly</p>
+    <a href="/Students" class="btn btn-primary">Go To Student Server</a>
+  </div>
+</div>
+        <!--Courses-->
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                    <h5 class="card-title">Add Courses</h5>
+                    <p class="card-text">Welcome to Course Management Hub your dynamic solution for streamlined, secure, and savvy course management.</p>
+                    <a href="/Courses" class="btn btn-primary">View Course Server</a>
+            </div>
+        </div>
+        <!--StudentsInfo-->
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Student Information Page</h5>
+                    <p class="card-text">Welcome to Student Infomation, your go-to hub for all things student-related – where efficiency meets Gen Z cool.</p>
+                    <a href="/StudentInfo" class="btn btn-primary">View Student Information</a>
+            </div>
+        </div>
+        </div>
+    </section>
+</body>
+</html>
